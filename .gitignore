@@ -1,0 +1,98 @@
+# ======================
+# Node modules
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor files
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Build folders
+# ======================
+dist/
+build/
+out/
+
+# ======================
+# React specific
+# ======================
+frontend/node_modules/
+frontend/build/
+
+# ======================
+# Backend specific
+# ======================
+backend/node_modules/
+
+# ======================
+# Temporary files
+# ======================
+tmp/
+temp/
+
+# ======================
+# Coverage reports
+# ======================
+coverage/
+
+# ======================
+# Cache
+# ======================
+.cache/
+
+# ======================
+# Misc
+# ======================
+*.pid
+*.seed
+*.pid.lock
+
+# ======================
+# Docker (if used)
+# ======================
+docker-compose.override.yml
+
+# ======================
+# Database files (if local)
+# ======================
+*.sqlite
+*.db
+
+# ======================
+# Mac system files
+# ======================
+.AppleDouble
+.LSOverride
+
+# ======================
+# Optional: Lock files (decide based on team)
+# ======================
+# package-lock.json
+# yarn.lock
